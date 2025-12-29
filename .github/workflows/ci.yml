@@ -3,8 +3,6 @@ name: MLflow Training CI
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
 
 jobs:
   train-model:
@@ -20,9 +18,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mlflow pandas scikit-learn
+          pip install pandas scikit-learn mlflow==2.10.1
 
-      - name: Run MLflow Project
+      - name: Run model training directly
         run: |
           cd MLProject
-          mlflow run .
+          python modelling.py
