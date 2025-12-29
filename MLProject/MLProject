@@ -1,6 +1,7 @@
 name: Telco_Churn_Prediction_CI
 
-conda_env: conda.yaml
+# Ganti dari conda_env ke python_env
+python_env: python_env.yaml
 
 entry_points:
   main:
