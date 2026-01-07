@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 
-mlflow.set_tracking_uri("http://localhost:5000")
+mlflow.set_tracking_uri("file:./mlruns")
 mlflow.set_experiment("telco_churn_experiment")
 
 # ===== LOAD DATA (WAJIB: DATASET HASIL PREPROCESSING) =====
