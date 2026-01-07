@@ -1,6 +1,0 @@
-artifact_location: file:D:/dicoding msml/Membangun_model/mlruns/211711268904097668
-creation_time: 1767753813926
-experiment_id: '211711268904097668'
-last_update_time: 1767753813926
-lifecycle_stage: active
-name: telco_churn_experiment
