@@ -1,4 +1,6 @@
-name: telco-churn-ci
+name: Telco_Churn_Prediction_CI
+
+conda_env: conda.yaml
 
 entry_points:
   main:

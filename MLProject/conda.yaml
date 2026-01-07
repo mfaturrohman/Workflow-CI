@@ -1,10 +1,11 @@
-name: mlflow-env
+name: telco-churn-env
 channels:
   - conda-forge
 dependencies:
-  - python=3.10
+  - python=3.11
   - pip
   - pip:
-      - mlflow
       - pandas
+      - numpy
       - scikit-learn
+      - mlflow
