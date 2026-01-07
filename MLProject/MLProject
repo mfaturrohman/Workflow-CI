@@ -1,8 +1,0 @@
-name: Telco_Churn_Prediction_CI
-
-# Ganti dari conda_env ke python_env
-python_env: python_env.yaml
-
-entry_points:
-  main:
-    command: "python modelling.py"
