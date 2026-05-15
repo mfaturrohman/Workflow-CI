@@ -10,4 +10,4 @@ WORKDIR /app/MLProject
 
 EXPOSE 8080
 
-CMD mlflow models serve -m mlruns/0/7215d8933b634a63a90e0d82af7333eb/artifacts/model -h 0.0.0.0 -p 8080 --no-conda
+CMD mlflow models serve -m mlruns/1/models/m-4ef04d1a735347deab4db861859a223a/artifacts -h 0.0.0.0 -p 8080 --no-conda
